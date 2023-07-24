@@ -2,7 +2,7 @@
 IoT 시스템 개발자 미니프로젝트 리포지토리
 
 ## Part1
-[미니프로젝트 Part1](https://github.com/SoYoungHW/pknu_miniprojects/tree/main/Part1/studyPyQt)
+[미니프로젝트 Part1](https://github.com/SoYoungHW/pknu_miniprojects/tree/main/Part1)
 
 ## Part2
 [미니프로젝트 Part2](https://github.com/SoYoungHW/pknu_miniprojects/tree/main/Part2)
