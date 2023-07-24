@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BogusTestApp", "BogusTestApp\BogusTestApp.csproj", "{8E739B28-B0AB-4340-9998-0E27B6B14665}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test용", "Test용", "{E9078231-34BF-4610-9AA4-D2AA72F682B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQTT Subscriber", "MQTT Subscriber", "{48137B9D-67A9-4CF3-A178-D6ADC8676A88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQTT Publisher", "MQTT Publisher", "{0FE951ED-F6EF-417A-97B3-90322B25D520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeIotDeviceApp", "FakeIotDeviceApp\FakeIotDeviceApp.csproj", "{7EA1F7D2-55BB-4F45-9E9C-74202427ABB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartHomeMonitoringApp", "SmartHomeMonitoringApp\SmartHomeMonitoringApp.csproj", "{5BA325D1-73A5-4878-8E0C-E08968C333A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RaspberryPi 연결테스트", "RaspberryPi 연결테스트", "{697FB441-BC0A-40D2-AEFC-4654DF2C3D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpiMonitoringApp", "RpiMonitoringApp\RpiMonitoringApp.csproj", "{0AC3CE74-54BF-4EC8-B2A5-C140E9C01849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E739B28-B0AB-4340-9998-0E27B6B14665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E739B28-B0AB-4340-9998-0E27B6B14665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E739B28-B0AB-4340-9998-0E27B6B14665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E739B28-B0AB-4340-9998-0E27B6B14665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA1F7D2-55BB-4F45-9E9C-74202427ABB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA1F7D2-55BB-4F45-9E9C-74202427ABB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA1F7D2-55BB-4F45-9E9C-74202427ABB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA1F7D2-55BB-4F45-9E9C-74202427ABB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA325D1-73A5-4878-8E0C-E08968C333A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA325D1-73A5-4878-8E0C-E08968C333A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA325D1-73A5-4878-8E0C-E08968C333A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA325D1-73A5-4878-8E0C-E08968C333A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC3CE74-54BF-4EC8-B2A5-C140E9C01849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC3CE74-54BF-4EC8-B2A5-C140E9C01849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC3CE74-54BF-4EC8-B2A5-C140E9C01849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC3CE74-54BF-4EC8-B2A5-C140E9C01849}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E739B28-B0AB-4340-9998-0E27B6B14665} = {E9078231-34BF-4610-9AA4-D2AA72F682B5}
+		{7EA1F7D2-55BB-4F45-9E9C-74202427ABB8} = {0FE951ED-F6EF-417A-97B3-90322B25D520}
+		{5BA325D1-73A5-4878-8E0C-E08968C333A4} = {48137B9D-67A9-4CF3-A178-D6ADC8676A88}
+		{0AC3CE74-54BF-4EC8-B2A5-C140E9C01849} = {697FB441-BC0A-40D2-AEFC-4654DF2C3D82}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0B8B091-936E-4E7E-92B2-ACAA81122579}
+	EndGlobalSection
+EndGlobal
